@@ -1,0 +1,60 @@
+# textdomain: rust_tc
+Tool Cupboard=Шафа інструментів
+Authorizes players in a @1-block radius=Авторизує гравців у радіусі @1 блоків
+HP: @1=HP: @1
+Not a fuel: @1=Не є паливом: @1
+Deposited @1 @2 = +@3 points=Зараховано @1 @2 = +@3 балів
+Cannot place TC within another TC's radius (owner: @1)=Неможливо поставити TC в радіусі іншого TC (власник: @1)
+TC #@1 placed, radius @2, HP @3, upkeep @4/hr=TC #@1 встановлено, радіус @2, HP @3, утримання @4/год
+Only the TC owner can do that=Тільки власник TC може це зробити
+Authorize a player for the TC you're in/near=Авторизувати гравця для TC, в якому ви знаходитесь/поруч з яким стоїте
+Usage: /rust_tc_auth <player>=Використання: /rust_tc_auth <гравець>
+You are not near/in a TC=Ви не біля/в TC
+Player '@1' is already authorized=Гравець '@1' вже авторизований
+Authorized '@1' for TC #@2=Авторизовано '@1' для TC #@2
+Remove a player's authorization=Скасувати авторизацію гравця
+Usage: /rust_tc_unauth <player>=Використання: /rust_tc_unauth <гравець>
+Player '@1' is not authorized=Гравець '@1' не авторизований
+Removed '@1' from TC #@2=Видалено '@1' з TC #@2
+Info about the TC you're in/near=Інформація про TC, в якому ви знаходитесь/поруч з яким стоїте
+=== TC #@1 ==== === TC #@1 ===
+Owner: @1=Власник: @1
+Position: @1=Позиція: @1
+Radius: @1=Радіус: @1
+HP: @1 / @2=HP: @1 / @2
+Authorized: @1=Авторизовані: @1
+(none)=(немає)
+Created: @1=Створено: @1
+List all TCs you own=Показати всі ваші TC
+You own no TCs=У вас немає TC
+Your TCs (@1):=Ваші TC (@1):
+  #@1 at @2 (radius @3)=  #@1 в @2 (радіус @3)
+Admin: manage all TCs=Адмін: керування всіма TC
+Usage: /rust_tc_admin <list|info|delete> [id]=Використання: /rust_tc_admin <list|info|delete> [id]
+  #@1 owner=@2 pos=@3 r=@4=  #@1 власник=@2 поз=@3 р=@4
+Total: @1 TCs=Всього: @1 TC
+TC #@1 not found=TC #@1 не знайдено
+Deleted TC #@1=Видалено TC #@1
+Unknown action: @1=Невідома дія: @1
+Trigger one decay tick on your current TC (admin)=Викликати один тік гниття для вашого поточного TC (адмін)
+No TC nearby=Поруч немає TC
+Applied 1 decay tick to TC #@1=Застосовано 1 тік гниття до TC #@1
+Force-process one hour of upkeep on your current TC=Примусово обробити одну годину утримання для вашого поточного TC
+Processed 1 tick on TC #@1 (pool now @2)=Оброблено 1 тік для TC #@1 (пул тепер @2)
+[Rust Survival] You are not authorized for this TC=[Rust Survival] Ви не авторизовані для цього TC
+Tool Cupboard #@1=Шафа інструментів #@1
+Close=Закрити
+Owner: @1=Власник: @1
+Radius: @1 blocks=Радіус: @1 блоків
+Upkeep: @1 pts/hour=Утримання: @1 балів/год
+Stored: @1 pts (@2)=Збережено: @1 балів (@2)
+EXPIRING!=ЗАКІНЧУЄТЬСЯ!
+@1h=@1 год
+<1h=<1 год
+Deposit Fuel:=Внесок палива:
+<- Drag here=<- Перетягніть сюди
+Wood=1 Stone=2=Дерево=1 Камінь=2
+Steel=4 Diam=20=Сталь=4 Діам=20
+Your Inventory:=Ваш інвентар:
+[Rust Survival] Not authorized (TC-protected area)=[Rust Survival] Немає доступу (зона захисту TC)
+[Rust Survival] Cannot place here (TC-protected area)=[Rust Survival] Неможливо поставити тут (зона захисту TC)
