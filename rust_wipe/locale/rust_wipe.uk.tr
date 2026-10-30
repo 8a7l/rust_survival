@@ -1,0 +1,17 @@
+# textdomain: rust_wipe
+[Rust Survival] Your inventory was cleared due to a wipe.=[Rust Survival] Ваш інвентар було очищено через вайп.
+[Rust Survival] Your inventory was cleared due to a wipe that occurred while you were offline.=[Rust Survival] Ваш інвентар було очищено через вайп, який відбувся, поки вас не було.
+[Rust Survival] Your inventory was cleared and you were moved due to a wipe.=[Rust Survival] Ваш інвентар було очищено і вас переміщено через вайп.
+[Rust Survival] Your inventory was cleared and you were moved due to a wipe that occurred while you were offline.=[Rust Survival] Ваш інвентар було очищено і вас переміщено через вайп, який відбувся, поки вас не було.
+[Rust Survival] Wipe! World reset. You start from scratch.=[Rust Survival] Вайп! Світ скинуто. Ви починаєте з нуля.
+[Rust Survival] === SERVER HAS BEEN WIPED (Era @1) ====[Rust Survival] === СЕРВЕР БУЛО ВАЙПНУТО (Ера @1) ===
+[Rust Survival] All bases destroyed. Online players cleared: @1=[Rust Survival] Всі бази знищено. Очищено онлайн-гравців: @1
+[Rust Survival] !!! AUTO-WIPE !!!=[Rust Survival] !!! АВТО-ВАЙП !!!
+[Rust Survival] Restart the server to generate a new map.=[Rust Survival] Перезапустіть сервер, щоб згенерувати нову карту.
+Force a full server wipe (admin only)=Примусово очистити весь сервер (тільки адмін)
+THIS WILL DESTROY ALL BASES! Type /rust_wipe confirm to confirm.=ЦЕ ЗНИЩИТЬ ВСІ БАЗИ! Введіть /rust_wipe confirm для підтвердження.
+Wipe started.=Вайп розпочато.
+Show auto-wipe status=Показати статус автовайпу
+Auto-wipe is DISABLED.=Автовайп ВИМКНЕНО.
+Auto-wipe is PENDING (will trigger on next check).=Автовайп ОЧІКУЄ (спрацює при наступній перевірці).
+Auto-wipe ENABLED. Next wipe in @1 days.=Автовайп УВІМКНЕНО. Наступний вайп через @1 днів.
