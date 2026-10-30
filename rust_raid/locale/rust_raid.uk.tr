@@ -1,0 +1,31 @@
+# textdomain: rust_raid
+Gunpowder=Порох
+Armed Satchel Charge=Активований заряд сатчеля
+Satchel Charge (@1s, @2 dmg, r=@3)=Заряд сатчеля (@1с, @2 шкоди, радіус=@3)
+Armed C4=Активований C4
+C4 (@1s, @2 dmg, r=@3)=C4 (@1с, @2 шкоди, радіус=@3)
+Armed Landmine=Активована міна
+Landmine (Explodes on step)=Міна (вибухає при наступанні)
+[Rust Survival] Landmine armed.=[Rust Survival] Міну встановлено.
+[Rust Survival] Warning: raid window closed. DUD!=[Rust Survival] Увага: вікно рейду закрито. ДУД!
+[Rust Survival] Satchel armed, fuse @1s=[Rust Survival] Сатчель активовано, детонація через @1с
+[Rust Survival] C4 armed, fuse @1s=[Rust Survival] C4 активовано, детонація через @1с
+[Rust Survival] DUD — raid window closed.=[Rust Survival] ДУД — вікно рейду закрито.
+<radius> <damage>=<радіус> <шкода>
+Trigger a test explosion at your feet (admin)=Викликати тестовий вибух під ногами (адмін)
+Usage: /rust_raid_test <radius> <damage>=Використання: /rust_raid_test <радіус> <шкода>
+Player not found=Гравця не знайдено
+Explosion failed: @1=Помилка вибуху: @1
+Boom.=Бум.
+Show raid window status=Показати статус вікна рейду
+[Rust Survival] Raid: @1=[Rust Survival] Рейд: @1
+<node> [hp]=<вузол> [hp]
+Register a node as breakable by explosions=Зареєструвати вузол як руйнівний для вибухів
+Usage: /rust_raid_register_breakable <node> [hp]=Використання: /rust_raid_register_breakable <вузол> [hp]
+Node '@1' not registered=Вузол '@1' не зареєстровано
+Registered '@1' as breakable=Зареєстровано '@1' як руйнівний
+List all registered breakable nodes=Показати всі зареєстровані руйнівні вузли
+builtin=вбудований
+custom=власний
+[Rust Survival] Breakables (@1): @2=[Rust Survival] Руйнівні (@1): @2
+[Rust Survival] Plus all doors/gates (checked at runtime)=[Rust Survival] Плюс всі двері/ворота (перевіряються під час вибуху)
