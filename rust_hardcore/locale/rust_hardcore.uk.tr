@@ -1,0 +1,15 @@
+# textdomain: rust_hardcore
+Show Rust Survival hardcore status=Показати статус хардкору Rust Survival
+=== rust_hardcore ==== === rust_hardcore ===
+Time mode: @1=Режим часу: @1
+Hour: @1=Година: @1
+Day: @1=День: @1
+Raid window: @1=Вікно рейду: @1
+Wipe cycle: @1=Цикл вайпу: @1
+@1 @2 days=@1 @2 днів
+disabled=вимкнено
+always open=завжди відкрито
+OPEN=ВІДКРИТО
+CLOSED=ЗАКРИТО
+real=реальний
+in-game=ігровий
