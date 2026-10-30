@@ -1,0 +1,17 @@
+[rust_core]
+# Log level for all Rust Survival mods
+rust_core_log_level (Log level) enum action error,warning,action,info,verbose
+
+# Use real-world server time for ALL Rust Survival timings
+# (raid window, wipe cycle, day counter).
+# If false: uses in-game time (minetest.get_gametime / get_timeofday).
+rust_core_use_real_time (Use real-world time) bool false
+
+# UTC offset in hours, applied only when use_real_time = true.
+# 0 = display UTC. 2 = Kyiv winter. 3 = Kyiv summer.
+# Independent of server timezone (os.date is forced to UTC first).
+rust_core_utc_offset (UTC offset, hours) int 0 -12 14
+
+# Days between world wipes (0 = never wipe).
+# Real days if use_real_time = true, in-game days otherwise.
+rust_core_wipe_cycle_days (Wipe cycle in days) int 7 0 365
