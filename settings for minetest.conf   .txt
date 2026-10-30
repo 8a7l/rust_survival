@@ -1,0 +1,150 @@
+# ============================================================
+# LUANTI BASE SETTINGS (Required for Rust Survival)
+# ============================================================
+
+# Enable damage (CRITICAL: the game won't be hardcore without it)
+enable_damage = true
+
+# Disable the default bones mod (Rust Survival uses its own death drop system)
+bones = false
+
+# Time in seconds before dropped items disappear (30 minutes)
+item_entity_ttl = 1800
+
+# Default privileges for new players (no fly, no creative, no give!)
+default_privs = interact, shout
+
+# ============================================================
+# RUST CORE (Global time & Wipe cycles)
+# ============================================================
+
+# Use real-world time for raid windows and decay (true/false)
+rust_core_use_real_time = true
+
+# UTC offset (2 = winter time in Ukraine, 3 = summer time)
+rust_core_utc_offset = 2
+
+# Days between wipes (0 = never wipe)
+rust_core_wipe_cycle_days = 7
+
+# Log level (error, warning, action, info, verbose)
+rust_core_log_level = action
+
+# ============================================================
+# RUST HARDCORE (Death, Respawn & Raid Window)
+# ============================================================
+
+# Drop 100% of inventory on death
+rust_hardcore_death_drop = true
+
+# Random respawn on death (far from death point)
+rust_hardcore_respawn_random = true
+
+# Maximum distance for random respawn (in blocks)
+rust_hardcore_respawn_range = 1500
+
+# Enable raid window (explosives only work during this time)
+rust_hardcore_raid_window_enabled = true
+
+# Raid window start hour (19:00)
+rust_hardcore_raid_window_start = 19
+
+# Raid window end hour (07:00)
+rust_hardcore_raid_window_end = 7
+
+# ============================================================
+# RUST BUILDING (HP of Building Blocks)
+# ============================================================
+
+# HP of wood blocks (Rust default: 250)
+rust_building_hp_wood = 250
+
+# HP of stone blocks (Rust default: 1000)
+rust_building_hp_stone = 1000
+
+# HP of metal blocks (Rust default: 2000)
+rust_building_hp_metal = 2000
+
+# HP of armored blocks (Rust default: 4000)
+rust_building_hp_armored = 4000
+
+# ============================================================
+# RUST RAID (Explosives, Mines & Damage)
+# ============================================================
+
+# Satchel charge damage
+rust_raid_satchel_damage = 100
+
+# Satchel charge radius in blocks
+rust_raid_satchel_radius = 3
+
+# Satchel charge fuse in seconds
+rust_raid_satchel_fuse = 5
+
+# C4 damage
+rust_raid_c4_damage = 500
+
+# C4 radius in blocks
+rust_raid_c4_radius = 4
+
+# C4 fuse in seconds
+rust_raid_c4_fuse = 3
+
+# HP of breakable containers (chests, furnaces, doors)
+rust_raid_breakable_hp = 200
+
+# Explosion sound radius in blocks
+rust_raid_sound_radius = 256
+
+# Explosion sound volume
+rust_raid_sound_gain = 2.0
+
+# Player damage multiplier (0.35 = 35% of block damage)
+rust_raid_player_damage_mult = 0.35
+
+# Knockback force from explosions (0 = disabled)
+rust_raid_knockback_force = 25.0
+
+# Landmine damage
+rust_raid_mine_damage = 300
+
+# Landmine radius
+rust_raid_mine_radius = 2
+
+# ============================================================
+# RUST TC (Tool Cupboard, Protection & Upkeep)
+# ============================================================
+
+# TC HP (5000 = 10 C4 to destroy)
+rust_tc_hp = 5000
+
+# TC protection radius in blocks
+rust_tc_radius = 20
+
+# Enable TC protection for chests, doors, and blocks
+rust_tc_protect_enabled = true
+
+# Enable upkeep system (base decays without fuel)
+rust_tc_upkeep_enabled = true
+
+# Decay percentage per hour without upkeep (0.04 = 4%)
+rust_tc_decay_pct = 0.04
+
+# Repair percentage per hour when upkeep is paid (0.03 = 3%)
+rust_tc_repair_pct = 0.03
+
+# Log every can_dig decision (useful for debugging)
+rust_tc_debug_log = false
+
+# ============================================================
+# RUST WIPE (Auto-Wipe System)
+# ============================================================
+
+# Enable automatic server wipe
+rust_wipe_auto_enabled = true
+
+# Interval between automatic wipes in days
+rust_wipe_auto_days = 7
+
+# Delete map on auto-wipe (creates WIPE_MAP.txt for .bat script)
+rust_wipe_auto_hard = true
