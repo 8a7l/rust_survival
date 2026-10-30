@@ -1,0 +1,18 @@
+[rust_hardcore]
+# Drop all items on death (Rust-style, 100% loss)
+rust_hardcore_death_drop (Death drop enabled) bool true
+
+# Random respawn on death (Rust-style). Disable for testing.
+rust_hardcore_respawn_random (Random respawn) bool true
+
+# Maximum X/Z distance from origin for random respawn
+rust_hardcore_respawn_range (Respawn range) int 1500 100 10000
+
+# Enable raid window (only during this window can players raid)
+rust_hardcore_raid_window_enabled (Raid window enabled) bool true
+
+# Raid window start hour (interpreted in the time mode of rust_core)
+rust_hardcore_raid_window_start (Raid window start) int 19 0 23
+
+# Raid window end hour (interpreted in the time mode of rust_core)
+rust_hardcore_raid_window_end (Raid window end) int 7 0 23
