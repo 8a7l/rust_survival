@@ -1,0 +1,12 @@
+# textdomain: rust_building
+Wood Block=Дерев'яний блок
+Stone Block=Кам'яний блок
+Metal Block=Металевий блок
+Armored Block=Броньований блок
+[Rust Survival] Not authorized to break this block.=[Rust Survival] Немає дозволу ламати цей блок.
+<amount>=<кількість>
+Damage the building block you are looking at=Пошкодити будівельний блок, на який ви дивитесь
+Usage: /rust_building_damage <amount>=Використання: /rust_building_damage <кількість>
+Player not found=Гравця не знайдено
+Look at a block within 8 nodes=Подивіться на блок у радіусі 8 блоків
+Result: @1=Результат: @1
