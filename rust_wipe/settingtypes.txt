@@ -1,0 +1,9 @@
+[rust_wipe]
+# Enable automatic wipe (default: disabled)
+rust_wipe_auto_enabled (Enable auto-wipe) bool false
+
+# Interval between automatic wipes in days
+rust_wipe_auto_days (Auto-wipe interval, days) int 7 1 365
+
+# Delete the map on auto-wipe (creates WIPE_MAP.txt for .bat scripts)
+rust_wipe_auto_hard (Delete map on auto-wipe) bool true
