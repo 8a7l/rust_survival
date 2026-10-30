@@ -1,0 +1,12 @@
+[rust_building]
+# HP of wood blocks (Rust Survival default: 250)
+rust_building_hp_wood (Wood block HP) int 250 1 10000
+
+# HP of stone blocks (Rust Survival default: 1000)
+rust_building_hp_stone (Stone block HP) int 1000 1 10000
+
+# HP of metal blocks (Rust Survival default: 2000)
+rust_building_hp_metal (Metal block HP) int 2000 1 10000
+
+# HP of armored blocks (Rust Survival default: 4000)
+rust_building_hp_armored (Armored block HP) int 4000 1 10000
