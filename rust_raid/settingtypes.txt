@@ -1,0 +1,39 @@
+[rust_raid]
+# Satchel charge damage (default 100)
+rust_raid_satchel_damage (Satchel damage) int 100 1 10000
+
+# Satchel charge radius in blocks (default 3)
+rust_raid_satchel_radius (Satchel radius) int 3 1 20
+
+# Satchel charge fuse in seconds (default 5)
+rust_raid_satchel_fuse (Satchel fuse, seconds) int 5 1 60
+
+# C4 damage (default 500)
+rust_raid_c4_damage (C4 damage) int 500 1 10000
+
+# C4 radius in blocks (default 4)
+rust_raid_c4_radius (C4 radius) int 4 1 20
+
+# C4 fuse in seconds (default 3)
+rust_raid_c4_fuse (C4 fuse, seconds) int 3 1 60
+
+# HP of breakable containers (chests, furnaces, doors)
+rust_raid_breakable_hp (Breakable container HP) int 200 1 10000
+
+# Explosion sound radius in blocks
+rust_raid_sound_radius (Explosion sound radius) int 128 16 500
+
+# Explosion sound gain (volume)
+rust_raid_sound_gain (Explosion sound gain) float 2.0 0.1 10.0
+
+# Player damage multiplier (0.35 = 35% of block damage)
+rust_raid_player_damage_mult (Player damage multiplier) float 0.35 0.01 1.0
+
+# Knockback force from explosions (0 = disabled)
+rust_raid_knockback_force (Knockback force) float 25.0 0.0 50.0
+
+# Landmine damage
+rust_raid_mine_damage (Landmine damage) int 300 1 10000
+
+# Landmine radius
+rust_raid_mine_radius (Landmine radius) int 2 1 20
