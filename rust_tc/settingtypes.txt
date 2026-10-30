@@ -1,0 +1,21 @@
+[rust_tc]
+# HP of the Tool Cupboard (default 5000 = 10 C4)
+rust_tc_hp (TC HP) int 5000 500 100000
+
+# Radius of a TC in blocks (default 20)
+rust_tc_radius (TC radius) int 20 5 100
+
+# Enable TC protection of containers and blocks.
+rust_tc_protect_enabled (TC protection enabled) bool true
+
+# Log every can_dig decision (debug)
+rust_tc_debug_log (Log can_dig decisions) bool false
+
+# Enable upkeep system (base decays without fuel)
+rust_tc_upkeep_enabled (Upkeep enabled) bool true
+
+# Decay % of max HP per hour without upkeep (0.04 = 4%/hr)
+rust_tc_decay_pct (Decay percent per hour) float 0.04 0.005 1.0
+
+# Repair % of max HP per hour when upkeep is paid (0.03 = 3%/hr)
+rust_tc_repair_pct (Repair percent per hour) float 0.03 0.005 1.0
